@@ -1,0 +1,131 @@
+.login-container {
+  height: 100vh;
+  background: linear-gradient(to bottom, #e0f0ff, #84bff8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sched {
+  color: #0f2c59;
+}
+
+.pro {
+  color: #0d9276;
+  margin-left: 4px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-left: 10px;
+}
+
+.login-form {
+  background-color: #fffafa;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #0d9276;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.options .forgot {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-in {
+  background-color: #0d9276;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0 10px;
+  color: #555;
+  font-size: 0.9rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}
+
+.create-account {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #0d9276;
+  background: transparent;
+  color: #0d9276;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.create-account:hover {
+  background-color: #d9f2ee;
+}
+.password-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 40px; /* Space for the icon */
+}
+
+.toggle-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,78 @@
+.signup-container {
+  height: 100vh;
+  background: linear-gradient(to bottom, #e0f0ff, #84bff8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sched {
+  color: #0f2c59;
+}
+
+.pro {
+  color: #0d9276;
+  margin-left: 4px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-left: 10px;
+}
+
+.signup-form {
+  background-color: #fffafa;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #0d9276;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.signup-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.sign-up {
+  background-color: #0d9276;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.signin-link {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.signin-link a {
+  color: #0d3c91;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,57 @@
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #e0f0ff, #84bff8);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.sched {
+  color: #0f2c59;
+  font-weight: bold;
+}
+
+.pro {
+  color: #0d9276;
+  margin-left: 4px;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1c3f7c;
+  margin-bottom: 50px;
+}
+
+.get-started {
+  margin-top: 40px;
+  padding: 14px 40px;
+  background-color: #0d9276;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.get-started:hover {
+  background-color: #0b7d63;
+}
